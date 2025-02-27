@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        th,td {
+            border: 1px solid black
+        }
+
+        tfoot {
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Tabelas</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Estoque</th>
+                <th>Preço</th>
+                <th>Promoção</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Camiseta</td>
+                <td>5</td>
+                <td>10$</td>
+                <td rowspan="2" >sim</td>
+            </tr>
+
+            <tr>
+                <td>Bermuda</td>
+                <td>2</td>
+                <td>15$</td>
+               
+            </tr>
+
+            <tr>
+                <td>Saia</td>
+                <td>5</td>
+                <td>25$</td>
+                <td>não</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>50</td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+
+</body>
+</html>
